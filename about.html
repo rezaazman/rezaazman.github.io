@@ -13,7 +13,6 @@
     
   </head>
   <body>
-
     <header>
     <!-- NAVBAR -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
@@ -25,7 +24,7 @@
 	     <div class="collapse navbar-collapse" id="navbarToggler">
 	        <ul class="navbar-nav ml-auto mr-2 pb-1 mt-2 mt-lg-0">
 	          <li class="nav-item">
-	            <a class="nav-link px-0 mx-1 animation-underlined" href="">HOME</a>
+	            <a class="nav-link px-0 mx-1 animation-underlined" href="index.html">HOME</a>
 	          </li>
 	          <li class="nav-item">
 	            <a class="nav-link px-0 mx-1 animation-underlined" href="list.html">LIST</a>
@@ -122,48 +121,21 @@
 
     </section>
 
-    <div class="container mt-5">	
+    <div class="container mt-5">
+<!-- Pertama -->	
     	<div class="row text-center">
-    		<div class="col-md-4">
-    			<img src="img/thomas-edison.png" class="w-50">
-    			<h5 class="mt-2">Thomas Alva Edison</h5>
-    			<p>He developed many devices that greatly influenced life around the world, including the phonograph, the motion picture camera, and the long-lasting, practical electric light bulb.</p>
-    		</div>
-    		<div class="col-md-4">
-    			<img src="img/graham-bell.png" class="w-50">
-    			<h5 class="mt-2">Alexander Graham Bell</h5>
-    			<p>Was a Scottish-bornscientist, inventor, engineer, and innovator who is credited with patenting the first practical telephone and founding the American Telephone and Telegraph Company in 1885</p>
-    		</div>
-    		<div class="col-md-4">
-    			<img src="img/george-washington.png" class="w-50">
-    			<h5 class="mt-2">George Washington Carver</h5>
-    			<p>Was an American botanist and inventor. He became well-known to the public due to his active promotion of alternative crops to cotton and methods to prevent soil depletion.</p>
-    		</div>
-    	</div>
-
-    	<hr>
-    	
-    	<div class="row">
-    		<div class="col-md-5">
-    			<img src="img/apple-computer-1st.jpg" class="w-100">
-    		</div>
-    		<div class="col-md-7">
-	    		<p class="text-justify">It’s difficult to imagine our world today without computers. Of course, they have been around since World War Two, but they were clunky, massively expensive things that had all the calculating power of a brick. When Steve Wozniak and Stephen Jobs introduced the Apple in 1976, however, it changed everything and the rest is, as they say, history. Today, of course, they are everywhere and we have become so dependent upon them that many people almost feel naked without one. For some, they even provide the very means of maintaining a livelihood: we use them to keep track of our finances, write books, design logos and sell real estate. Plus, they are rapidly replacing the stereo and television in their ability to entertain us with music, movies, and games. Makes it hard to understand how our ancestors did so well without them, doesn’t it? (Image: the Apple 1, 1976.)</p>
-    		</div>
-    	</div>
-		<hr>
-
-		<div class="row">
-    		<div class="col-md-7">
-    			<p class="text-justify order-1">While the rocket was first invented and used by the Chinese over three thousand years ago and used occasionally by the Greeks and Romans since it wasn’t until the twentieth century that it came into its own and became more than just a dazzling amusement or a largely harmless but still effective “terror weapon” for ancient armies. In the twentieth century, rockets became bigger and more powerful. Most importantly, they became controllable, which suddenly made them useful both as weapons of war and, even more vitally, as our means of accessing outer space.</p>
-    		</div>
-    		<div class="col-md-5 order-0">
-    		<iframe class="w-100 h-100" src="https://www.youtube.com/embed/4FROxZ5i67k" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-    		</div>
-    	</div>
-		<hr>
-
-    </div>
+    		<div class="col-md-12">
+          <!-- ISI -->
+          <div id="map"></div>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCNUTSVV4k-bE1OxXoMEPtUZrcOogTUKc&callback=initMap"
+    async defer></script>
+          <!-- ISI -->
+	</div>
+</div>
+<hr>
+<!-- !Pertama -->
+     
+</div>
 
       
     
@@ -191,7 +163,7 @@
 	    		<div class="col-md-3 px-5 mt-3">
 	    			<h5 class="mb-0">PARTNERSHIP</h5>
 		    		<ul id="ul-none">
-		    			<li id="epek">Makers Institute</li>
+		    			<li>Makers Institute</li>
 		    			<li>Bootstrap</li>
 		    		</ul>
 	    		</div>
@@ -227,7 +199,6 @@
 
     <!-- MD Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/js/mdb.min.js" type="text/javascript" charset="utf-8" async defer></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <script type="text/javascript" src="js/main.js"></script>
   </body>
